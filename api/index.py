@@ -1,6 +1,6 @@
 from flask import Flask, request, send_file, jsonify
 import os
-import pdfplumber
+
 from PyPDF2 import PdfReader, PdfWriter
 
 app = Flask(__name__)
